@@ -36,11 +36,15 @@ listCounter = 0
 if (_platform == "win64" or _platform == "win32"):
     if (inputPath.endswith("\\")):
         pass
+    elif (inputPath == ""):
+        inputPath = os.getcwd() + "\\"
     else:
         inputPath = inputPath + "\\"
 else:
     if (inputPath.endswith("/")):
         pass
+    elif (inputPath==""):
+        inputPath=os.getcwd() + "/"
     else:
         inputPath = inputPath + "/"
 

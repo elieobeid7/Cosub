@@ -1,4 +1,4 @@
-Cosub
+Cosub beta version
 ===================
 
 
@@ -15,6 +15,9 @@ Features
 > - It deletes sends the original files to trash using [Send2Trash](https://github.com/hsoft/send2trash)
 > - It downloads subtitles using [Subliminal](https://github.com/Diaoul/subliminal) 
 > - It renames the subtitles to match the names of the files
+> - If you leave the path empty, the folder that you are currently in is considered as your path
+> - The script detects the operating system you're using and should in theory work on any platform, but for the time being, it's only tested on Linux
+
 
 
 ##  Known issues
@@ -26,5 +29,8 @@ Features
 
 > - Python 2.7
 > - Send2Trash
->- Subliminal
+> - Subliminal
 
+## TODO
+> - Packaging
+> - Testing on Mac and Windows
